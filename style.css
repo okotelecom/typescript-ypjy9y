@@ -1,0 +1,22 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  width: 100vw;
+  height: 100vh;
+}
+
+#panel {
+  position: absolute;
+  z-index: 400;
+  width: 200px;
+  height: 200px;
+  top: 16px;
+  right: 16px;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+  border-radius: 3px;
+}
